@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right, rgb(147, 223, 135), rgb(153, 87, 223));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 60px);
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.output {
+    font-family: 'VT323', monospace;
+    padding: 10px;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    background-color: black;
+    color: white;
+    word-wrap: break-word;
+    word-break: break-all;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.previous-output {
+    font-size: 1.5rem;
+    color: #a160fb;
+}
+
+.current-output {
+    font-size: 2.5rem;
+}
+
+.calculator button {
+    border-radius: 20px;
+    border: none;
+    font-size: 1.3rem;
+    font-family: 'Black Ops One', cursive;
+    background-color: white;
+    box-shadow: 0 0 5px grey;
+    cursor: pointer;
+}
+
+.calculator button:hover {
+    scale: 96%;
+    background-color: #a160fb;
+    color: white;
+}
+
+.operator {
+    color: #7f9096;
+}
+
+.all-clear {
+    color: red;
+}
+
+.delete {
+    color: rgb(79, 187, 79);
+}

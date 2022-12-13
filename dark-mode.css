@@ -1,0 +1,41 @@
+.calculator-black {
+    background-color: black;
+}
+
+.output-black {
+    box-shadow: 0 0 5px grey;
+}
+
+.operator-black {
+    background-color: black !important;
+}
+
+.operator-black:hover {
+    background-color: #a160fb !important;
+}
+
+.function-black {
+    background-color: black !important;
+}
+
+.function-black:hover {
+    background-color: #a160fb !important;
+}
+
+.number-black {
+    background-color: black !important;
+    color: white;
+}
+
+.number-black:hover {
+    background-color: #a160fb !important;
+}
+
+.theme-black {
+    background-color: black !important;
+    color: white;
+}
+
+.theme-black:hover {
+    background-color: #a160fb !important;
+}
